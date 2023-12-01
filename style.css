@@ -212,3 +212,14 @@ map{
     padding: 10px;
     border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+    #chatbot {
+        position: fixed; /* Fixed position for smaller screens */
+        bottom: 0;
+        right: 0;
+        width: 100%; /* Occupy full width */
+        height: 50vh; /* Adjust the height as needed */
+        border-radius: 0; /* No border-radius for smaller screens */
+    }
+}
